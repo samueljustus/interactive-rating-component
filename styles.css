@@ -13,7 +13,7 @@ font-family: 'Overpass', sans-serif;
 
 #container {
     height: 55vh;
-    width: 30%;
+    width: 28%;
     background-color: hsl(213, 19%, 18%);
     margin: auto;
     position: absolute;
@@ -57,7 +57,8 @@ font-family: 'Overpass', sans-serif;
 #rating {
     display: flex;
     flex-direction: row;
-    margin-top: 10px;
+    margin-top: 20px;
+    gap: 27px;
     
     
 }
@@ -67,34 +68,51 @@ font-family: 'Overpass', sans-serif;
     width: 40px;
     border-radius: 50px;
     background-color: hsl(215, 22%, 24%);
-    margin: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1rem;
+    color:hsl(0, 0%, 100%);
     font-weight: 800;
+    cursor: pointer;
 
+}
+
+.circles:hover {
+    background-color: hsl(25, 97%, 53%);
 }
 
 
 #btn {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-   
+    margin-top: 30px; 
 }
 
 
 button {
-    width: 80%;
-    height: 50px;
+    width: 90%;
+    height: 40px;
     border-radius: 25px;
     border: solid black 1px;
     color: hsl(0, 0%, 100%);
     background-color: hsl(25, 97%, 53%);
-    margin-right: 10px;
     font-weight: 700;
 }
 
+button:hover {
+    color:hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+ #rating .active {
+    background-color:  hsl(217, 12%, 63%);
+}
+
+
+@media only screen and (max-width: 1200px) {
+    #container {
+        width: 80%;
+        
+    }
+
+
+}
