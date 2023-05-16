@@ -7,5 +7,10 @@ ratings.forEach((element) => {
         element.classList.add('active');
     })
 })
-// const button = document.querySelector('button');
+const button = document.querySelector('button');
 
+
+button.addEventListener('click', () => {
+    document.location.href = "thankyou.html"
+    // console.log("holla");
+})
