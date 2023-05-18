@@ -10,7 +10,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 # the-challenge
 
@@ -21,7 +20,8 @@ Users should be able to:
 - Select and submit a number rating
 - See the "Thank you" card state after submitting a rating
 
-# screenshot
+# links
+https://samueljustus.github.io/interactive-rating-component/
 
 
 ## built with
