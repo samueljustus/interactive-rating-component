@@ -12,7 +12,7 @@ body {
 
 #t-container {
     height:55vh;
-    width: 30%;
+    width: 27%;
     background-color: hsl(213, 19%, 18%);
     margin: auto;
     position: absolute;
@@ -24,4 +24,42 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 20px;
+}
+
+#image {
+    margin-bottom: 35px;
+}
+
+
+#ratings-selected {
+    margin-bottom: 30px;
+    border-radius: 30px;
+    padding: 7px;
+    background-color: hsl(215, 22%, 24%);
+    color: hsl(25, 97%, 53%);
+    font-size: 0.8rem;
+
+}
+
+
+#thank-you {
+    color:hsl(0, 0%, 100%);
+    font-size: 0.8rem;
+}
+
+
+#p-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(216, 12%, 54%);
+    word-wrap: break-word;
+    padding: 10px;
+    font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    #t-container {
+        height:55vh;
+        width: 60%;
 }
